@@ -1,0 +1,15 @@
+/* add background img */
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+.Image{
+	height: 100px;
+    width: 100px;
+    background-position: 50% 50%;
+    position: relative;    
+}
+/* resize images */
+
+/* style page */
