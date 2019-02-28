@@ -21,7 +21,7 @@ ol{
 }
 
 div.header, div.pictures{
-/* add background color to all boxes*/
+	background-color: #17408b;
 }
 div.instructions{
 	width: 43%;
@@ -55,6 +55,3 @@ element.style {
 	width: 43.1%;
 	padding: 10px;
 }
-/* resize images */
-
-/* style page */
