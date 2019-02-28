@@ -3,11 +3,9 @@ body {
 }
 
 div{
-	background-color: white;
+	background-color: #c9082a;
 	margin: 10px;
-	width: 25%
-}
-div{
+	width: 25%;
 	border: solid 2px antiquewhite;
 	padding: 10px;
 }
@@ -50,7 +48,7 @@ div.header {
 	height: 100px;
     width: 100px;
     background-position: 50% 50%;
-    position: relative;    
+	position: relative;    
 }
 
 element.style {

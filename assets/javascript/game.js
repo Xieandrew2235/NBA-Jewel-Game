@@ -28,14 +28,14 @@ $( document ).ready(function(){
         } 
 
   function victory(){
-  alert("You win!");
+  alert("You are offered a BBB contract by LaVar Ball!");
     wins++; 
     $('#numberWins').text(wins);
     reset();
   }
 
   function loser(){
-  alert ("You lost! Javale McGee is laughing at you!!");
+  alert ("You are not a big baller!! -Lavar Ball");
 //   look up how to add an image after prompt of loss
     losses++;
     $('#numberLosses').text(losses);

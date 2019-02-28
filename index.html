@@ -7,41 +7,45 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
 	<div class="header">
-		<h1>Point Collector</h1>
+		<h1>Shooting Contest (with bad shooters)</h1>
 	</div>
 	<div class="instructions">
-		<h3>Score points with Shaq, Rodman, Big Baby, and Swaggy P!!!!!</h3>
+		<h3>Shaq, Lonzo, Ben Wallace, and Dennis Rodman are all great NBA players with unique individual talent, but they all
+			share one common trait: they CAN'T shoot. Read the rules below to try and win the game with these dreadful shooters!</h3>
 		</br>
 		<ol>
 			<li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
-			<li>There are four images of former NBA players below.</li>
-			<li>Instead of scoring 1,2, or 3 points as they would in a game, you will add a specific random amount of points (1 to 12 per click) to your total score.</li>
+			<li>There are four images of Shaq, Lonzo, Ben Wallace, and Dennis Rodman.</li>
+			<li>Instead of scoring either 1,2, or 3 points as they would in a game, for each click on a certain player's
+				image you will add a specific random amount of points (1 to 12 per click) to your total score.</li>
 			<li>You win the game by matching your total score to the random number.</li>
 			<li>You lose the game if your total score goes above the random number.</li>
-			<li>The value of each player is hidden and unknown until you click on it.</li>
-			<li>The player's value per click will change every time the game restarts. Have fun!</li>
+			<li>The value of each player's image is hidden and unknown until you click on it.</li>
+			<li>Each player's image's value per click will change every time the game restarts. Have fun!</li>
 		</ol>
 	</div>
 	<div class="numberToMatch">
-		<h2>Number To Get:
-			<span id= "randomNumber"></span>
+		<h2>Score to Win:
+			<span id="randomNumber"></span>
 		</h2>
 	</div>
 	<div class="winsAndLosses">
 		<h2>Wins:
-			<span id= "numberWins"></span>
+			<span id="numberWins"></span>
+			</br>
 			</br>
 			Losses:
-			<span id= "numberLosses"></span>
+			<span id="numberLosses"></span>
 		</h2>
 	</div>
 	<div class="pictures">
 		<img src="assets/images/shaq.jpg" class=Image id="one" alt="Shaq">
-		<img src="assets/images/swaggyp.jpg" class=Image id="two" alt="Swaggy P">
-		<img src="assets/images/bigbaby.jpg" class=Image id= "three" alt="Big Baby Davis">
-		<img src="assets/images/rodman.jpg" class=Image id= "four" alt="Rodman">
+		<img src="assets/images/ball.jpg" class=Image id="two" alt="Ball">
+		<img src="assets/images/bigben.jpg" class=Image id="three" alt="Big Ben">
+		<img src="assets/images/rodman.jpg" class=Image id="four" alt="Rodman">
 	</div>
 	<div class="userTotal">
 		<h2>Your total score is:
@@ -51,4 +55,5 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
+
 </html>

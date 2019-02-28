@@ -1,1 +1,3 @@
-# unit-4-game
+# Unit-4-Assignment
+
+For this assignment, I chose to create a NBA-themed shooting game, with quite possibly the worst shooters in NBA history (in their respective positions). At the start of each new game, the player is presented with a random Score to Win (between 19-120), which is reached by clicking on the images of any of the 4 players. Each image carries a random value between 1-12; if the player hits the exact number, it counts as a win, but if the total values exceed the Score to Win, a loss is counted and the game is reset.
